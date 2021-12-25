@@ -12,7 +12,6 @@ class Iterator:
     def __iter__(self):
         self.index2 = -1
         self. index1 = 0
-
         return self
 
     def __next__(self):
